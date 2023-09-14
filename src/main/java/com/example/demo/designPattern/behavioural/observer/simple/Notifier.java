@@ -1,4 +1,4 @@
-package com.example.demo.designPattern.behavioural.observer;
+package com.example.demo.designPattern.behavioural.observer.simple;
 
 public interface Notifier {
 

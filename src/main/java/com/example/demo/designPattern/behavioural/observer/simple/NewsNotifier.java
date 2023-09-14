@@ -1,4 +1,4 @@
-package com.example.demo.designPattern.behavioural.observer;
+package com.example.demo.designPattern.behavioural.observer.simple;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,7 +8,6 @@ import java.util.List;
 @Slf4j
 public class NewsNotifier implements Notifier {
 
-    private String notification;
     private List<Subscriber> subscribers = new ArrayList<>();
 
     public void addSubscriber(Subscriber subscriber) {
@@ -20,9 +19,8 @@ public class NewsNotifier implements Notifier {
     }
 
     public void updateSubscribers(String notification) {
-        this.notification = notification;
         for (Subscriber subscriber : subscribers) {
-            subscriber.update(this.notification);
+            subscriber.update(notification);
         }
     }
 
