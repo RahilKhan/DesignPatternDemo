@@ -1,4 +1,4 @@
-package com.example.designpatterndemo..solid;
+package com.example.demo.principles.solid;
 
 public class LiskovSubstitution {
 	public static void main(String... args) {

@@ -1,4 +1,4 @@
-package com.example.designpatterndemo.solid;
+package com.example.demo.principles.solid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

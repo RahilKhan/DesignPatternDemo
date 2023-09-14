@@ -1,4 +1,4 @@
-package com.example.designpatterndemo..solid;
+package com.example.demo.principles.solid;
 
 public interface Engine {
 

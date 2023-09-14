@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.designpatterndemo..solid;
+package com.example.demo.principles.solid;
 
 /**
  * @author Rahil_Khan Liskov Substitution Principle example

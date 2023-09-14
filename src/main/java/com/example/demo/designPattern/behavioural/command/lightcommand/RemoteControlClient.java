@@ -1,4 +1,4 @@
-package com.example.designpatterndemo.command;
+package com.example.demo.designPattern.behavioural.command.lightcommand;
 
 import com.example.demo.model.Garage;
 import com.example.demo.model.Light;
